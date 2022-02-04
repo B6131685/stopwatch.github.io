@@ -1,0 +1,60 @@
+body {
+    background-color: aqua;
+    font-family: Arial;
+    height: 100%;
+}
+
+.wrapper {
+    width: 800px;
+    margin: 30px auto;
+    text-align: center;
+    color: rgb(16, 31, 44);
+    background-color: rgb(95, 123, 165);
+    
+}
+
+h1, h2, h3 {
+    font-size: 2.6rem;
+    font-weight: 600;
+    text-transform: uppercase;   
+}
+
+#seconds, #tens {
+    font-size: 2em;
+}
+
+
+button {
+    border-radius: 5px;
+    background: blue;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 1.2rem;
+    margin: 20px;
+    padding: 20px 50px;
+    outline: hidden;
+    width: 180px;
+   
+}
+
+/*
+button:hover{
+    transition: .3s;
+    background: #fff;
+    border: 1px solid #fff;
+    color: black;
+}
+*/
+button:hover:enabled{
+    /*your styles*/
+    
+    transition: .3s;
+    background: #fff;
+    border: 1px solid #fff;
+    color: black;
+}
+button:hover:disabled{
+    /*your styles*/
+    cursor: not-allowed;
+    background: rgb(124, 121, 121);
+}
